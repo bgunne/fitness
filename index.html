@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./tablet.css">
+	<link rel="stylesheet" href="./mobile.css">
+	<title>IGP Fitness</title>
+</head>
+
+<body>
+	<header class="header">
+		<!--Header background-->
+		<div class="decoration">
+			<img src="./svg/rectangle-white.svg" class="svg" id="headerRectangleWhite">
+			<img src="./svg/circle-pink.svg" class="svg" id="headerCirclePink">
+			<img src="./svg/cross-white.svg" class="svg" id="headerCrossWhite">
+			<img src="./svg/rectangle-white.svg" class="svg" id="headerRectangleGray">
+			<img src="./svg/zigzag-green.svg" class="svg" id="headerZigzagGreen">
+			<img src="./svg/triangle-white.svg" class="svg" id="headerTriangleWhite">
+			<img src="./svg/cross-green.svg" class="svg" id="headerCrossGreen">
+			<img src="./svg/circle-white.svg" class="svg" id="headerCircleWhite">
+		</div>
+		<div class="background-images-box">
+			<div class="background-man"></div>
+			<div class="background-woman"></div>
+		</div>
+		<!--Navigation bar-->
+		<div class="nav-box size-box">
+			<nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
+				<a class="navbar-brand" href="#">
+					<img src="./svg/logo.svg" class="svg" id="logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav align-items-center mr-auto align-middle">
+						<li class="nav-item menu-item active">
+							<a class="nav-link" href="#">ÉTREND<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menu-item active">
+							<a class="nav-link" href="#">EDZÉSTERV<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menu-item active">
+							<a class="nav-link" href="#">CSOMAG<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menu-item active">
+							<a class="nav-link" href="#">VIDEO<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menu-item active">
+							<a class="nav-link" href="#">BLOG<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+					<ul class="navbar-nav nav-user align-items-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">FIÓKOM<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<button type="button"
+								class="btn btn-register btn-outline-light rounded-pill">REGISZTRÁCIÓ</button>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!--Header content-->
+		<div class="header-content size-box">
+			<p class="header-caption small color-white">INDIVIDUALLY GUIDED PROJECT OF FITNESS</p>
+			<p class="header-caption big color-white">IGP FITNESS</p>
+			<p class="header-caption big color-lime">SHAPE YOUR LIFE</p>
+			<p class="header-text color-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+				nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+				veniam, quis nostrud
+				exerci tation ullamcorper suscipit.</p>
+			<button type="button" class="btn btn-outline-light rounded-pill" id="btnHeader">TOVÁBB</button>
+		</div>
+	</header>
+	<main>
+		<!--Bundle content-->
+		<div class="container-fluid bundle">
+			<div class="row bundle horizontal slider" dir="ltr">
+				<div class="col-sm bundle slide" id="bundle1">
+					<div class="bundle-content">
+						<p class="bundle-text small color-white">IGP FITNESS</p>
+						<p class="bundle-text big color-white">ÉTREND</p>
+						<button type="button" class="btn btn-outline-light rounded-pill">ÉRDEKEL</button>
+					</div>
+				</div>
+				<div class="col-sm bundle slide" id="bundle2">
+					<div class="bundle-content">
+						<p class="bundle-text small color-white">IGP FITNESS</p>
+						<p class="bundle-text big color-white">EDZÉSTERV</p>
+						<button type="button" class="btn btn-outline-light rounded-pill">ÉRDEKEL</button>
+					</div>
+				</div>
+				<div class="col-sm bundle slide" id="bundle3">
+					<div class="bundle-content">
+						<p class="bundle-text small color-white">IGP FITNESS</p>
+						<p class="bundle-text big color-white">FIT CSOMAG</p>
+						<button type="button" class="btn btn-outline-light rounded-pill">ÉRDEKEL</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Summary content-->
+		<div class="container-fluid summary size-box">
+			<div class="summary title">
+				<p class="summary-text small color-purple">AMIT MI KÍNÁLUNK</p>
+				<p class="summary-text big color-dakgray">FOGALMAZD MEG A CÉLOD</p>
+			</div>
+			<div class="row summary" id="summaryGoals">
+				<div class="col-sm summary" id="summary1">
+					<div class="summary-content">
+						<div class="summary-graphic">
+							<img src="./svg/bottle.svg" alt="bottle" id="bottle">
+						</div>
+						<p class="summary-text small">EGÉSZSÉGES ÉLET</p>
+						<p class="summary-text extrasmall color-lightgray">Lorem ipsum dolor sit amet, consectetuer
+							adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+					</div>
+				</div>
+				<div class="col-sm summary" id="summary2">
+					<div class="summary-content">
+						<div class="summary-graphic">
+							<img src="./svg/dumbbell.svg" alt="dumbbell" id="dumbbell">
+						</div>
+						<p class="summary-text small">EGÉSZSÉGES ÉLET</p>
+						<p class="summary-text extrasmall color-lightgray">Lorem ipsum dolor sit amet, consectetuer
+							adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+					</div>
+				</div>
+				<div class="col-sm summary" id="summary3">
+					<div class="summary-content">
+						<div class="summary-graphic">
+							<img src="./svg/note.svg" alt="note" id="note">
+						</div>
+						<p class="summary-text small">EGÉSZSÉGES ÉLET</p>
+						<p class="summary-text extrasmall color-lightgray">Lorem ipsum dolor sit amet, consectetuer
+							adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+					</div>
+				</div>
+				<div class="col-sm summary" id="summary4">
+					<div class="summary-content">
+						<div class="summary-graphic">
+							<img src="./svg/video.svg" alt="video" id="video">
+						</div>
+						<p class="summary-text small">EGÉSZSÉGES ÉLET</p>
+						<p class="summary-text extrasmall color-lightgray">Lorem ipsum dolor sit amet, consectetuer
+							adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row summary" id="summaryVideo">
+				<div class="col-sm summary" id="summary5">
+					<p class="summary-text small color-purple">VÁLTOZZ VELÜNK</p>
+					<p class="summary-text big color-dakgray">HOGYAN SEGÍTÜNK?</p>
+					<p class="summary-text extrasmall color-lightgray">Lorem ipsum dolor sit amet, consectetuer
+						adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+						erat volutpat. Ut
+						wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+						aliquip ex ea commodo
+						consequat. Duis autem vel eum iriure dolor.</p>
+					<button type="button" class="btn btn-purple rounded-pill">OLVASS TOVÁBB</button>
+				</div>
+				<div class="col-sm summary" id="summary6">
+					<div class="summary-video">
+						<button type="button" class="btn btn-purple rounded-circle">
+							<img src="svg/triangle-play.svg" alt="play" class="summary-graphic" id="play">
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Bundle details content-->
+		<div class="container-fluid bundle-details">
+			<div class="decoration">
+				<img src="./svg/circle-pink.svg" class="svg" id="bundleCirclePink">
+				<img src="./svg/rectangle-white.svg" class="svg" id="bundleRectangleWhite">
+				<img src="./svg/zigzag-green.svg" class="svg" id="bundleZigzagGreen">
+				<img src="./svg/cross-green.svg" class="svg" id="bundleCrossGreen">
+				<img src="./svg/zigzag-pink.svg" class="svg" id="bundleZigzagPink">
+				<img src="./svg/circle-white.svg" class="svg" id="bundleCircleWhite">
+			</div>
+			<div class="row bundle-details horizontal slider size-box" dir="ltr">
+				<div class="col-sm bundle-details slide" id="bundle-details1">
+					<div class="bundle-details-content">
+						<div class="bundle-details card">
+							<div class="card-body">
+								<h5 class="card-title big color-darkgray price">20.000 Ft</h5>
+								<h5 class="card-title small color-darkgray">IGP FITNESS</h5>
+								<h5 class="card-title big color-pink">ÉTREND</h5>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor sit</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor sit amet</li>
+							</ul>
+							<div class="card-body" id="cardBodyButton">
+								<button type="button" class="btn btn-purple rounded-pill">TOVÁBB</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm bundle-details slide" id="bundle-details2">
+					<div class="bundle-details-content">
+						<div class="bundle-details card">
+							<div class="card-body">
+								<h5 class="card-title big color-darkgray price">20.000 Ft</h5>
+								<h5 class="card-title small color-darkgray">IGP FITNESS</h5>
+								<h5 class="card-title big color-purple">EDZÉSTERV</h5>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor sit</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor sit amet</li>
+							</ul>
+							<div class="card-body" id="cardBodyButton">
+								<button type="button" class="btn btn-purple rounded-pill">TOVÁBB</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm bundle-details slide" id="bundle-details3">
+					<div class="bundle-details-content">
+						<div class="bundle-details card">
+							<div class="card-body">
+								<h5 class="card-title big color-darkgray price">20.000 Ft</h5>
+								<h5 class="card-title small color-darkgray">IGP FITNESS</h5>
+								<h5 class="card-title big color-lime">FIT CSOMAG</h5>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor sit</li>
+								<li class="list-group-item card-text color-lightgray">Lorem ipsum dolor sit amet</li>
+							</ul>
+							<div class="card-body" id="cardBodyButton">
+								<button type="button" class="btn btn-purple rounded-pill">TOVÁBB</button>
+							</div>
+						</div>
+					</div>
+					<div class="highlight">
+						<img src="./svg/star-white.svg" alt="star" id="star">
+					</div>
+				</div>
+				<div class="col-sm bundle-details slide" id="bundle-details4">
+					<div class="bundle-details-content">
+						<p class="bundle-details-text small color-white">VÁLTOZZ VELÜNK</p>
+						<p class="bundle-details-text big color-white">IGP</p>
+						<p class="bundle-details-text extrasmall color-white">Lorem ipsum dolor sit amet, consectetuer
+							adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Subscription form-->
+		<div class="container-fluid subscription">
+			<div class="subscription-box size-box">
+				<div class="subscription-text">
+					<p class="subscription-text small color-white">NE MARADJ LE SEMMIRŐL,</p>
+					<p class="subscription-text big color-white">IRATKOZZ FEL HÍRLEVELÜNKRE!</p>
+				</div>
+				<div class="subscription-form">
+					<input type="email" id="email" value="E-mail" class="subscription-input color-white">
+					<button type="submit" class="btn btn-white rounded-pill" id="btnSubscription">FELIRATKOZOM</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--Video content-->
+		<div class="container-fluid video">
+			<div class="video-text">
+				<p class="small color-purple">VIDEO</p>
+				<p class="big color-darkgray">VIDEOS EDZÉSEINK</p>
+				<p class="extrasmall color-lightgray">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+					nonummy nibh euismod tincidunt ut
+					laoreet dolore magna.
+					Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+			</div>
+			<div class="row video horizontal slider size-box" dir="ltr">
+				<div class="col-3 video slide" id="video1">
+					<div class="video-content">
+						<div class="video card">
+							<img src="./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg" class="card-img-top"
+								alt="video-cover">
+							<div class="video-length color-white">10:35</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item video card-text color-lightgray">2019. Július 20.</li>
+								<li class="list-group-item video card-text big color-darkgray">Súlyzós edzések (1/14)
+								</li>
+								<li class="list-group-item video card-text color-purple"><a class="next-link">TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 video slide" id="video2">
+					<div class="video-content">
+						<div class="video card">
+							<img src="./images/emily-sea-coiWR0gT8Cw-unsplash.jpg" class="card-img-top"
+								alt="video-cover">
+							<div class="video-length color-white">10:35</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item video card-text color-lightgray">2019. Július 20.</li>
+								<li class="list-group-item video card-text big color-darkgray">Yoga kezdőknek</li>
+								<li class="list-group-item video card-text color-purple"><a class="next-link">TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 video slide" id="video3">
+					<div class="video-content">
+						<div class="video card">
+							<img src="./images/meghan-holmes-wy_L8W0zcpI-unsplash.jpg" class="card-img-top"
+								alt="video-cover">
+							<div class="video-length color-white">10:35</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item video card-text color-lightgray">2019. Július 20.</li>
+								<li class="list-group-item video card-text big color-darkgray">Fitness, cardio,
+									motiváció (2/10)</li>
+								<li class="list-group-item video card-text color-purple"><a class="next-link">TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 video slide" id="video4">
+					<div class="video-content">
+						<div class="video card">
+							<img src="./images/arthur-edelman-qfjuh4OLdxw-unsplash.jpg" class="card-img-top"
+								alt="video-cover">
+							<div class="video-length color-white">10:35</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item video card-text color-lightgray">2019. Július 20.</li>
+								<li class="list-group-item video card-text big color-darkgray">Súlyzós edzések (2/14)
+								</li>
+								<li class="list-group-item video card-text color-purple"><a class="next-link">TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 video slide" id="video5">
+					<div class="video-content">
+						<div class="video card">
+							<img src="./images/tammy-gann-wiI32TvuGi8-unsplash.jpg" class="card-img-top"
+								alt="video-cover">
+							<div class="video-length color-white">10:35</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item video card-text color-lightgray">2019. Július 20.</li>
+								<li class="list-group-item video card-text big color-darkgray">Nyújtsunk együtt</li>
+								<li class="list-group-item video card-text color-purple"><a class="next-link">TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 video slide" id="video6">
+					<div class="video-content">
+						<div class="video card">
+							<img src="./images/danny-kekspro-MJRyDPYaOLA-unsplash.jpg" class="card-img-top"
+								alt="video-cover">
+							<div class="video-length color-white">10:35</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item video card-text color-lightgray">2019. Július 20.</li>
+								<li class="list-group-item video card-text big color-darkgray">A futás technikája</li>
+								<li class="list-group-item video card-text color-purple"><a class="next-link">TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="all-button">
+				<button type="button" class="btn btn-purple rounded-pill">ÖSSZES</button>
+			</div>
+		</div>
+		<!--Team-->
+		<div class="container-fluid team">
+			<div class="team-title">
+				<p class="small color-purple">IGP FITNESS</p>
+				<p class="big color-darkgray">A CSAPATUNK</p>
+			</div>
+			<div class="row team horizontal slider" dir="ltr">
+				<div class="col-sm team slide" id="team1">
+				</div>
+				<div class="col-sm team slide" id="team2">
+					<div class="team-content">
+						<p class="team-text big color-white">SAM SMITH</p>
+						<p class="team-text small color-white">PERSONAL TRAINER</p>
+						<div class="team social">
+							<img src="./svg/facebook-white.svg" alt="facebook" id="facebookTeam">
+							<img src="./svg/linkedin-green.svg" alt="linkedin" id="linkedinTeam">
+							<img src="./svg/instagram-white.svg" alt="instagram" id="instagramTeam">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm team slide" id="team3">
+				</div>
+				<div class="col-sm team slide" id="team4">
+				</div>
+			</div>
+		</div>
+		<!--Company offer-->
+		<div class="container-fluid company size-box row">
+			<img class="col-sm" src="./images/zachary-nelson-98Elr-LIvD8-unsplash.jpg" alt="group" id="groupPhoto">
+			<div class="col-sm company-content">
+				<p class="company-text small color-purple">CSAPATBAN</p>
+				<p class="company-text big color-darkgray">CÉGEKNEK</p>
+				<p class="company-text extrasmall color-lightgray">Lorem ipsum dolor sit amet, consectetuer adipiscing
+					elit, sed diam nonummy nibh euismod tincidunt ut
+					laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+					ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+					dolor.</p>
+				<button type="button" class="btn btn-purple rounded-pill">OLVASS TOVÁBB</button>
+			</div>
+		</div>
+		<!--Blog-->
+		<div class="container-fluid blog size-box">
+			<div class="blog-title">
+				<p class="blog-text small color-purple">BLOG</p>
+				<p class="blog-text big color-darkgray">LEGFRISSEBB HÍREK</p>
+			</div>
+			<div class="row blog horizontal slider" dir="ltr">
+				<div class="col-sm blog slide" id="blog1">
+					<div class="blog-content">
+						<div class="blog card">
+							<img src="./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg" class="card-img-top"
+								alt="blog-cover">
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item blog card-text extrasmall color-lightgray">
+									2019. Július 20.
+								</li>
+								<li class="list-group-item blog card-text small color-darkgray">
+									MARADJ FIT
+								</li>
+								<p class="company-text extrasmall color-lightgray">Lorem ipsum dolor sit amet,
+									consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore ipsum amet.</p>
+								<li class="list-group-item blog card-text color-purple">
+									<a class="next-link">OLVASS TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm blog slide" id="blog2">
+					<div class="blog-content">
+						<div class="blog card">
+							<img src="./images/emily-sea-coiWR0gT8Cw-unsplash.jpg" class="card-img-top"
+								alt="blog-cover">
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item blog card-text extrasmall color-lightgray">
+									2019. Július 20.
+								</li>
+								<li class="list-group-item blog card-text small color-darkgray">
+									MARADJ FIT
+								</li>
+								<p class="company-text extrasmall color-lightgray">Lorem ipsum dolor sit amet,
+									consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore ipsum amet.</p>
+								<li class="list-group-item blog card-text color-purple">
+									<a class="next-link">OLVASS TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm blog slide" id="blog3">
+					<div class="blog-content">
+						<div class="blog card">
+							<img src="./images/meghan-holmes-wy_L8W0zcpI-unsplash.jpg" class="card-img-top"
+								alt="blog-cover">
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item blog card-text extrasmall color-lightgray">
+									2019. Július 20.
+								</li>
+								<li class="list-group-item blog card-text small color-darkgray">
+									MARADJ FIT
+								</li>
+								<p class="company-text extrasmall color-lightgray">Lorem ipsum dolor sit amet,
+									consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore ipsum amet.</p>
+								<li class="list-group-item blog card-text color-purple">
+									<a class="next-link">OLVASS TOVÁBB</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="all-button">
+				<button type="button" class="btn btn-purple rounded-pill">ÖSSZES</button>
+			</div>
+		</div>
+		<!--Footer-->
+		<div class="container-fluid footer">
+			<div class="footer tiles row">
+				<div class="col-3 footer quote">
+					<div class="footer quote-text">
+						<p class="small color-white">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+							diam nonum”</p>
+						<p class="extrasmall color-white" id="quoteAuthor">SAM SMITH</p>
+					</div>
+				</div>
+				<div class="col-3 footer bundle">
+					<div class="footer bundle-text">
+						<p class="small color-white">IGP FITNESS</p>
+						<p class="big color-white">FIT CSOMAG</p>
+						<button type="submit" class="btn btn-white rounded-pill" id="btnBundle">TOVÁBB</button>
+					</div>
+				</div>
+				<div class="col-6 footer social">
+					<div class="footer social-text">
+						<img src="./svg/instagram-white.svg" alt="instagram" id="instagramFooter">
+						<p class="big color-white">#IGPFITNESS</p>
+						<button type="button" class="btn btn-purple rounded-pill">KÖVESS MINKET</button>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid footer information">
+				<div class="footer information size-box row">
+					<div class="col-sm footer contact-text" id="footerInformation1">
+						<p class="footer title small color-white">IGP FITNESS</p>
+						<p class="extrasmall color-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+							diam
+							nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+						<p class="extrasmall color-white" id="phoneNumber">+36 30 333 3333</p>
+					</div>
+					<div class="col-sm footer news-text" id="footerInformation2">
+						<p class="footer title small color-white">HÍREK</p>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item color-white">
+								<img src="images/c2d21f2e4ad19f1c8dbc2644015ba2b0.jpg" alt="woman">
+								<div class="footer news-text-box">
+									<p class="extrasmall color-white">LOREM IPSUM DOLOR</p>
+									<p class="extrasmall color-white" id="footerDate">2019.07.16.</p>
+								</div>
+							</li>
+							<li class="list-group-item color-white">
+								<img src="images/ad466bdc9131758f73d6670e7db5bc82.jpg" alt="woman">
+								<div class="footer news-text-box">
+									<p class="extrasmall color-white">LOREM IPSUM DOLOR</p>
+									<p class="extrasmall color-white" id="footerDate">2019.07.16.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm footer instagram-text" id="footerInformation3">
+						<p class="footer title small color-white">INSTAGRAM</p>
+						<div class="row">
+							<div class="col-4" id="footerInstagram1">
+								<img src="./images/a420108ab075db7379aac12b39f91e81.jpg" alt="instagram photo">
+							</div>
+							<div class="col-4" id="footerInstagram2">
+								<img src="./images/5bf676182db10527a16f15e0943fd326.jpg" alt="instagram photo">
+							</div>
+							<div class="col-4" id="footerInstagram3">
+								<img src="./images/313ce4c87fea01c1722faf3f7d3a2337.jpg" alt="instagram photo">
+							</div>
+							<div class="col-4" id="footerInstagram4">
+								<img src="./images/a0a369fed45161272f4f1f3632320acc.jpg" alt="instagram photo">
+							</div>
+							<div class="col-4" id="footerInstagram5">
+								<img src="./images/052012a8823c17a5af72de9d8aa59396.jpg" alt="instagram photo">
+							</div>
+							<div class="col-4" id="footerInstagram6">
+								<img src="./images/4628c965defc8e33b463569fedaaf530.jpg" alt="instagram photo">
+							</div>
+						</div>
+					</div>
+					<div class="col-sm footer information-text" id="footerInformation4">
+						<p class="footer title small color-white">HASZNOS</p>
+						<a href="#" class="footer extrasmall color-white">Kapcsolat</a>
+						<a href="#" class="footer extrasmall color-white">Cégeknek</a>
+						<a href="#" class="footer extrasmall color-white">Magunkról</a>
+						<a href="#" class="footer extrasmall color-white">ÁSZF</a>
+						<a href="#" class="footer extrasmall color-white">Adatvédelmi tájékoztató</a>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid footer copyright">
+				<div class="footer copyright size-box">
+					<p class="footer extrasmall color-lightgray">© Copyright IGP Fitness</p>
+					<p class="footer extrasmall color-lightgray">
+						Kövess minket
+						<a href="#"><img src="./svg/instagram-gray.svg" alt="facebook"></a>
+						<a href="#"><img src="./svg/linkedin-gray.svg" alt="linkedin"></a>
+						<a href="#"><img src="./svg/instagram-gray.svg" alt="instagram"></a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>

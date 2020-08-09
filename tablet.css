@@ -1,0 +1,55 @@
+@media (max-width: 1199px) and (min-width: 768px) {
+	
+	.size-box {
+		width: 80%;
+	}
+	
+	.container-fluid.bundle-details {
+		height: fit-content;
+		padding-bottom: 30px;
+		background-size: cover;
+	}
+
+	.card-body {
+		height: fit-content;
+	}
+
+	.bundle-details.card {
+		height: fit-content;
+	}
+
+	.card-title.big {
+		font-size: 15px;
+	}
+
+	.container-fluid.summary {
+		height: fit-content;
+	}
+
+	.subscription-box {
+		display: block;
+	}
+
+	.video.card {
+		height: fit-content;
+	}
+
+	.footer.tiles {
+		height: fit-content;
+	}
+
+	.footer.tiles .col-3, .footer.tiles .col-6{
+		min-width: 100%;
+		height: fit-content;
+		margin: 0;
+	}
+
+	.footer.social-text > .big {
+		font-size: 35px;
+		letter-spacing: 2px;
+	}
+
+	#footerInformation4 {
+		text-align: right;
+	}
+}

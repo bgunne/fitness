@@ -1,0 +1,1101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Monsterrat;
+	src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(./fonts/Open_Sans/OpenSans-Regular.ttf)
+}
+
+a:hover, .btn:hover {
+	cursor: pointer;
+}
+
+.header {
+	height: 930px;
+	position: relative;
+	background-image: linear-gradient(
+		to right top,
+		rgba(113, 106, 228, 1) 0%,
+		rgba(155, 18, 141, 1) 53.46%,
+		rgba(215, 36, 108, 1) 100%);
+	font-family: Montserrat;
+}
+
+.size-box{
+	width: 66%;
+	margin: auto;
+}
+
+.navbar {
+	padding-top: 28px;
+	padding-left: 0;
+	padding-right: 0;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2.4px;
+}
+
+.navbar-brand {
+	width: 55px;
+	height: 30px;
+	margin-right: 160px;
+	padding: 0;
+}
+
+#logo {
+	width : 55px;
+	height : 30px;
+}
+
+.menu-item {
+	margin-right: 18px;
+}
+
+.nav-user {
+	width: 290px;
+	justify-content: space-around;
+	position: relative;
+	left: 10px;
+}
+
+.btn {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.7px;
+	width: 200px;
+	height: 55px;
+}
+
+.btn-register{
+	width: 186px;
+	height: 44px;
+	font-size: 12px;
+	letter-spacing: 2.4px;
+	position: relative;
+	left: 10px;
+}
+
+.background-images-box {
+	width: 953px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.background-woman {
+	width: 661px;
+	height: 100%;
+	background-image: url(./images/woman_4.png);
+	background-size: 99%;
+	background-position: 0% 68%;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.background-man {
+	width: 620px;
+	height: 100%;
+	opacity: 0.9;
+	background-image: url(./images/man.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 8px;
+	filter: blur(2px);
+}
+.color-white {
+	color: white;
+}
+
+.color-darkgray {
+	color: rgba(45, 45, 45, 1);
+}
+
+.color-lightgray {
+	color: rgba(128, 128, 128, 1);
+}
+
+.color-lime {
+	color:  rgba(142, 255, 84, 1);
+}
+
+.color-purple {
+	color: rgba(128, 4, 191, 1);
+}
+
+.color-pink {
+	color: rgba(215, 36, 108, 1);
+}
+
+.header-content {
+	position: relative;
+	margin-top: 149px;
+}
+
+.header-caption.small {
+	font-weight: medium;
+	font-size: 20px;
+	margin-bottom: 26px;
+}
+
+.header-caption.big {
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 90px;
+	letter-spacing: 3.5px;
+	margin-bottom: 0;
+}
+
+.header-text {
+	width: 511px;
+	margin-top: 13px;
+	margin-bottom: 44px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+}
+.container-fluid {
+	padding: 0;
+}
+
+.container-fluid.bundle {
+	height: 329px;
+}
+
+.bundle {
+	font-family: Montserrat;
+	text-align: center;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.row.bundle {
+	height: inherit;
+}
+
+.col-sm {
+	padding: 0;
+}
+
+.col-sm.bundle {
+	height: inherit;
+	display: flex;
+}
+
+.bundle-content {
+	margin: auto;
+}
+.bundle-text {
+	letter-spacing: 1.75px;
+}
+
+.bundle-text.small {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+.bundle-text.big {
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 40px;
+	margin-bottom: 32px;
+}
+
+#bundle1 {
+	background-image: linear-gradient(
+		45deg, rgba(215, 36, 108, 0.7) 0%,
+		rgba(128, 4, 191, 0.7) 99.84%),
+		url(./images/healthy-food-LH758VD.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bundle2 {
+	background-image: linear-gradient(
+		45deg,
+		rgba(72, 128, 158, 0.7) 0%,
+		rgba(128, 4, 191, 0.71) 99.84%),
+		url(./images/fitness-woman-working-out-on-core-muscles-PW2B9H2.jpg);
+	background-size: 125%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bundle3 {
+	background-image: linear-gradient(
+		45deg,
+		rgba(72, 128, 158, 0.7) 0%,
+		rgba(142, 255, 84, 0.7) 99.84%),
+		url(./images/woman-at-waterfall-P3JCR5X.jpg);
+	background-size: 110%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#bottle {
+	width: 40px;
+	height: 87px;
+}
+
+#dumbbell {
+	width: 79px;
+	height: 79px;
+}
+
+#note {
+	width: 64px;
+	height: 87px;
+}
+
+#video {
+	width: 69px;
+	height: 64px;
+}
+
+.rounded-circle {
+	width: 90px;
+	height: 90px;
+}
+
+#play {
+	width: 19px;
+	height: 25px;
+}
+
+.btn-purple {
+	background: linear-gradient(
+		90deg, rgba(72, 128, 158, 1) 0%,
+		rgba(128, 4, 191, 1) 99.84%);
+	border: 0;
+	color: white;
+	margin-bottom: 18px;
+}
+
+.btn-white {
+	width: 200px;
+	background: white;
+	color: rgba(128, 4, 191, 1);
+}
+
+.container-fluid.summary {
+	height: 1088px;
+	font-family: Montserrat;
+	text-align: center;
+}
+
+.summary.title{
+	margin-top: 122px;
+}
+
+.extrasmall {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.summary-text.small {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 6px;
+}
+
+.summary-text.big {
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 71px;
+	letter-spacing: 2.25px;
+	margin-bottom: 0;
+}
+
+
+#summary1, #summary2, #summary3 {
+	margin-right: 30px;
+}
+
+#summary5 {
+	margin-right: 38px;
+	text-align: left;
+}
+
+.summary-graphic {
+	height: 130px;
+}
+
+#summaryGoals {
+	margin-top: 83px;
+	margin-bottom: 105px;
+}
+
+#summaryVideo > #summary5 > .summary-text.extrasmall {
+	margin-top: 11px;
+	margin-bottom: 31px;
+	margin-right: 15px;
+}
+
+#summaryVideo {
+	margin-bottom: 20px;
+}
+
+.summary-video {
+	height: 385px;
+	right: 0;
+	background-image: url(./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-fluid.bundle-details {
+	height: 727px;
+	background-image: url(./images/01.jpg);
+	background-size: 125%;
+	background-position: 0% 25%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+
+.bundle-details.slider {
+	margin-top: 91px;
+}
+
+.bundle-details.slide {
+	padding: 0;
+}
+
+.bundle-details.card {
+	background-color: white;
+	text-align: center;
+	height: 545px;
+}
+
+.card-body{
+	height: 214px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.card-title {
+	font-family: Montserrat;
+}
+
+.card-title.big {
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 40px;
+	letter-spacing: 1.75px;
+	margin-bottom: 12px;
+}
+
+.card-title.price {
+	margin-top: 25px;
+}
+
+.card-title.small {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+
+.card-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.card-body > button {
+	margin: 0;
+}
+
+#cardBodyButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90px;
+}
+
+#bundle-details1, #bundle-details2, #bundle-details3 {
+	margin-right: 30px;
+}
+
+#bundle-details4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: Montserrat;
+}
+
+.bundle-details-text.small {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.bundle-details-text.big {
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.bundle-details-text.extrasmall {
+	margin-bottom: 0;
+}
+
+.highlight {
+	width: 79px;
+	height: 79px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(215, 36, 108, 1);
+	clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+#star {
+	width: 21px;
+	height: 20px;
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+
+.container-fluid.subscription {
+	height: 160px;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba(215, 36, 108, 0.6),
+		rgba(215, 36, 108, 0.6)),
+		url(./images/01.jpg);
+	background-size: 125%;
+	background-position: 0% 25%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+
+.subscription-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.subscription-text {
+	font-family: Montserrat;
+	letter-spacing: 1.5px;
+	margin-bottom: 0;
+}
+
+.subscription-text.small {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.subscription-text.big {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.subscription-form {
+	position: relative;
+}
+
+.subscription-input {
+	border-style: Solid;
+	border-color: rgba(255, 255, 255, 1);
+	border-width: 1px;
+	background-color: transparent;
+	width: 509px;
+	height: 55px;
+	border-radius: 27px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+}
+
+#btnSubscription {
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.video-text {
+	font-family: Montserrat;
+	text-align: center;
+	width: 44%;
+	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 85px;
+}
+
+.video-text > .small {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.video-text > .big {
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.container-fluid.video > .slider {
+	margin: auto;
+}
+
+.col-3.video, .col-6.video {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+#video3, #video6 {
+	padding-right: 0;
+}
+
+.video.card {
+	height: 420px;
+	border: 0;
+	margin-bottom: 50px;
+}
+
+.video.card .list-group-item {
+	border: 0;
+	padding: 0;
+}
+
+.video.card-text {
+	font-family: Montserrat;
+}
+
+.video.card-text.big {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.next-link {
+	font-weight: bold;
+}
+
+.video.card > img {
+	height: 305px;
+	object-fit: cover;
+	position: relative;
+}
+
+.video.card > ul > .list-group-item {
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+.video-length {
+	width: 61px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(128, 4, 191, 1);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2.4px;
+}
+
+.all-button{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 130px;
+}
+
+.team-title {
+	font-family: Montserrat;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 85px;
+}
+
+.team-title > .small {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.team-title > .big {
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.row.team {
+	height: 497px;
+}
+
+.col-sm.team {
+	height: inherit;
+	display: flex;
+}
+
+#team1 {
+	background-image: url(./images/fitness-woman-working-out-on-core-muscles-PW2B9H2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#team2 {
+	background-image: linear-gradient(
+		45deg, rgba(72, 128, 158, 0.5) 0%,
+		rgba(128, 4, 191, 0.5) 99.84%),
+		url(./images/fit-man-working-out-at-the-beach-Y5AMHPZ.jpg);
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#team3 {
+	background-image: url(./images/christopher-campbell-kFCdfLbu6zA-unsplash.jpg);
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#team4 {
+	background-image: url(./images/smiling-mature-man-having-healthy-breakfast-PM8HY7T.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.team-content {
+	margin: auto;
+	text-align: center;
+	font-family: Montserrat;
+}
+
+.team-content > .small {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.team-content > .big {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.team.social{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.team.social > img {
+	width: 17px;
+	height: 17px;
+}
+
+.team.social > img:hover {
+	cursor: pointer;
+}
+
+.container-fluid.company {
+	display: flex;
+	justify-content: space-between;
+	height: 415px;
+	margin: auto;
+	margin-top: 130px;
+	margin-bottom: 130px;
+	
+}
+
+
+.container-fluid.company > img {
+	object-fit: cover;
+	margin-right: 30px;
+}
+
+.company-content {
+	text-align: right;
+}
+
+.company-text.small {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.company-text.big {
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 71px;
+	letter-spacing: 2.25px;
+	margin-bottom: 0;
+}
+
+.blog-title {
+	text-align: center;
+}
+.blog-text.small {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.blog-text.big {
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 71px;
+	letter-spacing: 2.25px;
+	margin-bottom: 0;
+}
+
+.blog.card {
+	border-color: rgba(128, 4, 191, 1);
+}
+
+.blog.card > img {
+	height: 294px;
+	object-fit: cover;
+}
+
+.blog.card > ul {
+	margin: 30px;
+	border: 0;
+}
+
+.blog.card-text {
+	padding: 0;
+}
+
+.blog.card-text.small {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.blog.card-text.big {
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 71px;
+	letter-spacing: 2.25px;
+	margin-bottom: 0;
+}
+
+.container-fluid.blog > .slider {
+	margin-top: 72px;
+	margin-bottom: 50px;
+}
+
+#blog1, #blog2 {
+	margin-right: 30px;
+}
+
+.footer.tiles {
+	height: 459px;
+	display: flex;
+}
+
+.footer.quote {
+	background-image: url(./images/scott-webb-5IsdIqwwNP4-unsplash.jpg);
+	background-size: cover;
+	display: flex;
+}
+
+.footer.tiles > .col-3, .footer.tiles > .col-6 {
+	padding: 0;
+}
+
+.footer.quote-text {
+	width: 397px;
+	margin: auto;
+	text-align: center;
+	line-height: 35px;
+}
+
+.footer.quote-text > .small {
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 20px;
+}
+
+.footer.quote-text > .extrasmall {
+	margin-bottom: 0;
+}
+
+#quoteAuthor {
+	font-weight: bold;
+}
+
+.footer.bundle {
+	background: linear-gradient(
+		45deg, rgba(72, 128, 158, 1) 0%,
+		rgba(128, 4, 191, 1) 99.84%);
+	display: flex;
+}
+
+.footer.bundle-text{
+	font-family: Montserrat;
+	margin: auto;
+}
+
+.footer.bundle-text > .small {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.footer.bundle-text > .big {
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 71px;
+	letter-spacing: 2.25px;
+}
+
+.footer.social {
+	background-image: url(./images/bruno-nascimento-PHIgYUGQPvU-unsplash.jpg);
+	background-size: cover;
+	display: flex;
+}
+
+.footer.social-text{
+	font-family: Montserrat;
+	text-align: center;
+	margin: auto;
+}
+
+.footer.social-text > .big {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 71px;
+	letter-spacing: 9px;
+}
+
+#instagramFooter {
+	width: 56px;
+	height: 56px;
+}
+.container-fluid.footer.information {
+	background : rgba(45, 45, 45, 1);
+}
+.footer.information {
+	height : 408px;
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
+
+#footerInformation1, #footerInformation2, #footerInformation3 {
+	margin-right: 30px;
+}
+
+.footer.title {
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 20px;
+	line-height : 30px;
+	letter-spacing : 1px;
+}
+
+#phoneNumber {
+	margin-top: 20px;
+}
+
+.footer.news-text .list-group-item {
+	background-color: transparent;
+	border: solid;
+	border-width: 0 0 1px;
+	border-color: rgba(128, 128, 128, 1);
+	padding-right: 0;
+	padding-left: 0;
+	display: flex;
+}
+
+.footer.news-text img {
+	height : 58px;
+	width: 58px;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.footer.news-text .extrasmall {
+	margin-bottom: 0;
+}
+
+#footerDate {
+	font-size: 12px;
+}
+
+.footer.instagram-text img {
+	height : 93px;
+	width: 93px;
+	object-fit: cover;
+	margin-bottom: 7px;
+}
+
+.footer.instagram-text .col-4 {
+	padding: 0;
+}
+
+.footer.information.size-box {
+	align-items: flex-start;
+	margin-top: 85px;
+}
+
+.footer.information-text a {
+	display: block;
+}
+
+.container-fluid.footer.copyright {
+	background : rgba(40, 40, 40, 1);
+	height : 75px;
+}
+
+.footer.copyright.size-box {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer.copyright p {
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
+.footer.copyright img {
+	margin-left: 2px;
+	width: 25px;
+	height: 25px;
+}
+@media (max-width: 1919px)
+{
+	.decoration img {
+		width: 0 !important;
+		height: 0 !important;
+		left: 0 !important;
+		top: 0 !important;
+	}
+}
+@media (min-width:1920px)
+{
+	.decoration{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+	
+	.svg {
+		position: absolute;
+	}
+	
+	#headerRectangleWhite {
+		width : 22px;
+		height : 22px;
+		left: 390px;
+		top: 165px;
+	}
+	
+	#headerCirclePink {
+		width : 63px;
+		height : 63px;
+		left : 124px;
+		top: 280px;
+	}
+	
+	#headerCrossWhite {
+		width : 34px;
+		height : 34px;
+		left : 191px;
+		top : 547px;
+	}
+	
+	#headerRectangleGray {
+		width : 16px;
+		height : 16px;
+		left : 277px;
+		top : 802px;
+		opacity: 0.5;
+	}
+	
+	#headerZigzagGreen {
+		width : 89px;
+		height : 40px;
+		left : 625px;
+		top : 633px;
+	}
+	
+	#headerTriangleWhite {
+		width : 26px;
+		height : 25px;
+		left : 836px;
+		top : 728px;
+	}
+	
+	#headerCrossGreen {
+		width : 22px;
+		height : 22px;
+		left : 879px;
+		top : 289px;
+	}
+	
+	#headerCircleWhite {
+		width : 63px;
+		height : 63px;
+		left : 1011px;
+		top : 294px;
+	}
+	
+	#bundleCirclePink {
+		width : 63px;
+		height : 63px;
+		left : 94px;
+		top : 78px;
+	}
+	
+	#bundleRectangleWhite {
+		width : 22px;
+		height : 22px;
+		left : 230px;
+		top : 290px;
+	}
+	
+	#bundleZigzagGreen {
+		width : 89px;
+		height : 40px;
+		left : 121px;
+		top : 583px;
+	}
+	
+	#bundleCrossGreen {
+		width : 41px;
+		height : 41px;
+		left : 1747px;
+		top : 110px;
+	}
+	
+	#bundleZigzagPink {
+		width : 58px;
+		height : 38px;
+		left : 1795px;
+		top : 436px;
+	}
+	
+	#bundleCircleWhite {
+		width : 63px;
+		height : 63px;
+		left : 1593px;
+		top : 544px;
+	}	
+}
